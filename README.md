@@ -1,4 +1,5 @@
-#AI Search Algorithms
+# AI Search Algorithms
+
 In my Introduction to Artificial Intelligence course I worked on creating a graphical analysis for different AI search methods - Nearest Neighbor, Nearest Neighbor with 2-Opt, Repeated Random Neighbor with 2-Opt, A* with minimum spanning tree, hill climbing, simulated annealing, and genetic algorithm - for the traveling salesman problem. I analyzed time, number of visited nodes, and difference from the "best cost scenario" to compare each type of search algorithm for graphs of size 5, 10, 15, 20, 25, and 30.
 
 To test each of these algorithms I had to write these search algorithms in python demonstrating my understanding of how each search algorithm worked and where they differ. I also had to go through and evaluate the trade offs for each algorithm, such as how the A* algorithm tended to have the best cost for the found path, but past graphs of size 10, the time cost is not worth the offset of the cost of the path from the Repeated Randomized Nearest Neighbor with 2-Opt. This not only helps me improve in analyzing efficacy in algorithms in general, but it also helps me further familiarize myself with these search algorithms and when it is best to use them.
